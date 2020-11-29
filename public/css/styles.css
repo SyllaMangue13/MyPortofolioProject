@@ -1,0 +1,1047 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+.navbar{
+    background-color:#221b47 ;
+    color: white;
+    
+}
+.navbar a.navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.navbar a.navbar-brand:hover{
+   
+  color: #32a88d;
+    
+}
+
+.nav-link {
+
+    float: right;
+    font-weight: 40px;
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+    margin-right: 15px;
+    border-right: 1px solid  #32a88d;
+}
+
+.nav-link:hover {
+   background-color: #32a88d;
+}
+
+.first{
+    /* background-color: black; */
+}
+.second{
+    /* background-color: white; */
+  
+}
+
+.moi{
+    width: 555px;
+    margin-right: 0px;
+    margin-top: -60px;
+}
+
+
+
+.first p  {
+    color: white !important;
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    /* background-color: yellow; */
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.nom{
+    /* background-color: blue; */
+    width: 400px;
+    height: 240px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+/* banner style */
+
+#banner{
+    background-color: #0f162e ;
+    color: white;
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.social-media{
+    color: white;
+    /* background-color: tomato; */
+    width: 230px;
+    margin-left: 110px ;
+}
+
+.tweeter{
+    
+    color: white;
+}
+
+.facebook{
+    color: white;
+}
+
+.linkdn{
+    color: white;
+}
+.github{
+
+    color: white;
+}
+
+.ligne{
+    background-color: #32a88d;
+    width: 80px;
+    height: 20px;
+    margin-left: 100px;
+
+}
+
+/* about me */
+
+#aboutMe{
+    background-color: #0f162e ;
+    height: 800px;
+    overflow: hidden;
+    /* margin-top: 20px; */
+    margin-bottom: -15px;
+}
+
+.title{
+    color: white !important;
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.myDiv{
+    background-color: white;
+    width: 690px;
+    height: 500px;
+    border-radius: 5%;
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 12px;
+    border: 1px solid #0f162e;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    
+}
+
+.myDiv p{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-left: 35px;
+    padding-left: 60px;
+    margin-top: 30px;
+}
+
+
+.circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color:#0f162e;
+    margin:auto;
+    margin-top: -10px;
+    margin-bottom: -30px;
+  }
+  
+  .circular--portrait img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* education section */
+
+  .card-title{
+    font-family: 'Anton', sans-serif;
+  }
+
+
+  .card-title1{
+    color: #83e4e2;
+    border-bottom: 5px solid #83e4e2;
+  }
+  
+  .card-title2{
+    color: #fd6470;
+    border-bottom: 5px solid #fd6470;
+  }
+  
+  .card-title3{
+    color: #fca858;
+    border-bottom: 5px solid #fca858;
+  }
+
+  .card-title4{
+    color: #fddc32;
+    border-bottom: 5px solid #fddc32;
+  }
+
+
+
+  .descriptions{
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+  }
+
+  #education {
+      background-color: #0f162e;
+      height: 680px; 
+      margin-bottom: -10px;
+  }
+.card{
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 3px 10px #888888;
+}
+
+
+/* competence section */
+#competences{
+    background-color: #0f162e;
+    height: 680px;
+    padding-left: 80px;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.percent{
+  font-family: 'Anton', sans-serif;
+}
+
+.competence-titre{
+    margin: auto;
+    color: white;
+    margin-left: 400px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400|Raleway:400,700,400italic,700italic);
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+    padding: 1em;
+}
+
+code {
+    color: #f1e399;
+    font-style: italic;
+}
+
+/* .arrow {
+    border: 2em solid transparent;
+    height: 0; 
+    margin: 50vh auto;
+    width: 0; 
+}
+ */
+
+ .percent{
+   margin-top: -125px;
+   margin-bottom: 80px;
+ }
+
+/*** RADIAL PROGRESS ***/
+/* Circumference = 2πr */
+/* π = 3.1415926535898 */
+/* r = 35 */
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+}
+svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129; /* Circumference */
+    stroke-width: 10;
+}
+svg.radial-progress circle.incomplete {
+    opacity: 0.25;
+}
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129; /* Circumference */
+}
+svg.radial-progress text {
+   
+    font: 400 1em/1 'Oswald', sans-serif;
+    text-anchor: middle;
+    
+}
+
+svg.radial-progress text.percentage {
+    color: white;
+}
+
+
+
+/*** COLORS ***/
+/* Primary */
+svg.radial-progress:nth-of-type(6n+1) circle {
+    stroke:#83e4e2;
+}
+
+/* Secondary */
+svg.radial-progress:nth-of-type(6n+2) circle {
+    stroke: #83e4e2;
+}
+
+/* Tertiary */
+svg.radial-progress:nth-of-type(6n+3) circle {
+    stroke: #fd6470;
+}
+
+/* Quaternary */
+svg.radial-progress:nth-of-type(6n+4) circle {
+    stroke: #fca858;
+}
+
+/* Quinary */
+svg.radial-progress:nth-of-type(6n+5) circle {
+    stroke: #fddc32;
+}
+
+.compte{
+    margin: auto;
+}
+
+/* Experience professionnelle */
+
+#sect4{
+    background-color: #0f162e;
+}
+
+
+.main-timeline{
+    font-family: 'Titillium Web', sans-serif;
+    padding: 50px 0 0;
+    position: relative;
+  }
+  .main-timeline:before{
+    content: '';
+    /* background-color: #fff; */
+    height: 100%;
+    width: 60%;
+    box-shadow: 0 0 10px #333;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 10px;
+  }
+  .main-timeline .timeline{
+    margin: -42px 0 0 0;
+    position: relative;
+    z-index: 1;
+  }
+  .main-timeline .timeline:before{
+    content: '';
+    border: 20px solid #FF9B00;
+    height: 90%;
+    width: 50%;
+    border-radius: 100px;
+    position: absolute;
+    left: 12%;
+    top: 22px;
+    z-index: -1;
+  }
+  .main-timeline .timeline-content{
+    background-color: #fff;
+    text-align: center;
+    width: 60%;
+    padding: 10px 15px 60px;
+    margin: 0 auto;
+    display: block;
+  }
+  .main-timeline .timeline-content:hover{ text-decoration: none; }
+  .main-timeline .timeline-year{
+    color: #FF9B00;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Anton', sans-serif;
+  }
+  .main-timeline .title1{
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+  }
+
+  .title2{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+  }
+
+  .main-timeline .title1:after{
+    content: '';
+    background-color: #FF9B00;
+    height: 3px;
+    width: 60px;
+    margin: 12px auto;
+    display: block;
+  }
+  .main-timeline .description{
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Arvo', serif;
+   
+  }
+  .main-timeline .timeline:nth-child(even):before{
+    left: auto;
+    right: 12%;
+  }
+  .main-timeline .timeline:nth-child(4n+2):before{ border-color: #FF503B; }
+  .main-timeline .timeline:nth-child(4n+2) .timeline-year{ color: #FF503B; }
+  .main-timeline .timeline:nth-child(4n+2) .title1:after{ background-color: #FF503B; }
+  .main-timeline .timeline:nth-child(4n+3):before{ border-color: #009CE6; }
+  .main-timeline .timeline:nth-child(4n+3) .timeline-year{ color: #009CE6; }
+  .main-timeline .timeline:nth-child(4n+3) .title1:after{ background-color: #009CE6; }
+  .main-timeline .timeline:nth-child(4n+4):before{ border-color: #B160BD; }
+  .main-timeline .timeline:nth-child(4n+4) .timeline-year{ color: #B160BD; }
+  .main-timeline .timeline:nth-child(4n+4) .title1:after{ background-color: #B160BD; }
+  @media only screen and (max-width:990px){
+    .main-timeline .timeline:before{
+        left: 5%;
+        border-radius: 120px;
+    }
+    .main-timeline .timeline:nth-child(even):before{ right: 5%; }
+  }
+  @media only screen and (max-width:576px){
+    .main-timeline:before{ width: 85%; }
+    .main-timeline .timeline{ margin: -38px 0 0 0; }
+    .main-timeline .timeline:before{
+        border-width: 8px;
+        border-radius: 0;
+        left: 0;
+    }
+    .main-timeline .timeline:nth-child(even):before{ right: 0; }
+    .main-timeline .timeline-content{ width: 85%; }
+    .main-timeline .title1{ font-size: 18px; }
+  }
+
+  
+
+  .experience-title h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+  
+  }
+
+  /* Interest part */
+
+#interest{
+    background-color: #0f162e;
+    color: white;
+    /* margin-top: 20px; */
+}
+
+.myInterets{
+  font-family: 'Arvo', serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: white;
+} 
+  
+
+  .content-1 p {
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  
+  .content-2 p {
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  
+  .content-3 p {
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+  }
+  .cards{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+  }
+  .cards h2.header{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .services{
+    display: flex;
+    align-items: center;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all .3s ease;
+  }
+  .content .fab{
+    font-size: 70px;
+    margin: 16px 0;
+  }
+  .content > *{
+    flex: 1 1 100%;
+  }
+  .content:hover{
+    color: white;
+  }
+  .content:hover a{
+    border-color: white;
+    background: white;
+  }
+  .content-1:hover{
+    border-color: #1DA1F2;
+    background: #1DA1F2;
+  }
+  .content-1:hover a{
+    color: #1DA1F2;
+  }
+  .content-2:hover{
+    border-color: #1DA1F2;
+    background: #1DA1F2;
+  }
+  .content-2:hover a{
+    color: #E1306C;
+  }
+  .content-3:hover{
+    border-color: #1DA1F2;
+    background: #1DA1F2;
+  }
+  .content-3:hover a{
+    color: #ff0000;
+  }
+  .content h2{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .content p{
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+  }
+  .content a{
+    margin: 22px 0;
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 0;
+    border-radius: 25px;
+    transition: .3s ease;
+  }
+  .content a:hover{
+    border-radius: 4px;
+  }
+  @media (max-width: 900px) {
+    .services{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  /* Footer */
+
+#lebas{
+    background-color: #221b47;
+}
+  
+.footer-distributed{
+	background-color: #221b47;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 0px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  green;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+@media only screen and (min-width:500px) and (max-width:767px){
+    
+    #banner{
+        background-color: #0f162e  ;
+        color:  white ;
+        height: 1000px;
+        width: 100%;
+        overflow: hidden;
+    }
+  
+    #education {
+        background-color: #0f162e;
+        height: 1100px; 
+        margin-bottom: -10px;
+    }
+
+    #competences{
+        background-color: #0f162e;
+        height: 1700px;
+        margin-bottom: -10px;
+        color: white;
+       
+    }
+
+    .myDiv{
+        background-color: white;
+        width: 480px;
+        height: 280px;
+        border-radius: 5%;
+        margin: auto;
+        padding-top: 60px;
+        padding-left: 12px;
+        
+    }
+    
+    .myDiv p{
+        color: black;
+        font-family: 'Dancing Script', cursive;
+        font-size: 17px;
+        padding-top: 5px;
+    }
+
+   
+
+    
+#aboutMe{
+    background-color: #0f162e ;
+    height: 650px;
+    overflow: hidden;
+    /* margin-top: 20px; */
+}
+    
+  
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    
+    #competences{
+        background-color: #0f162e;
+        height: 750px;
+        padding-left: 80px;
+        color: white;
+        margin-bottom: -10px;
+    }
+  
+}
+
+/* phones */
+
+@media only screen and (min-width:375px) and (max-width:812px){
+    
+    #banner{
+        background-color: #0f162e  ;
+        color:  white ;
+        height: 1000px;
+        width: 100%;
+        overflow: hidden;
+    } 
+
+    #education {
+        background-color: #0f162e;
+        height: 1100px; 
+        margin-bottom: -10px;
+    }
+  
+    #competences{
+        background-color: #0f162e;
+        height: 1700px;
+        padding-right: 30px;
+        color: white;
+        margin-bottom: -10px;
+    }
+
+    .myDiv{
+        background-color: white;
+        width: 400px;
+        height: 290px;
+        border-radius: 5%;
+        padding-top: 60px;
+        padding-left: 0px;
+       
+        
+    }
+    
+    .myDiv p{
+        color: black;
+        font-family: 'Dancing Script', cursive;
+        font-size: 15px;
+        margin-top: -10px;
+        padding-left: 50px;
+        /* background-color: green; */
+    }
+
+  
+
+}
+
+
+@media only screen and (min-width:360px) and (max-width:640px){
+    
+    #banner{
+        background-color: #0f162e  ;
+        color:  white ;
+        height: 650px;
+        width: 100%;
+        overflow: hidden;
+    } 
+
+    #aboutMe{
+      background-color: #0f162e ;
+      height: 600px;
+      overflow: hidden;
+      /* margin-top: 20px; */
+  }
+
+    #education {
+        background-color: #0f162e;
+        height: 970px;
+        margin-bottom: -10px; 
+    }
+  
+    #competences{
+        background-color: #0f162e;
+        height: 1700px;
+        padding-right: 30px;
+        color: white;
+        margin-bottom: -10px;
+    }
+
+    .myDiv{
+        background-color: white;
+        width: 300px;
+        height: 310px;
+        border-radius: 5%;
+        padding-top: 60px;
+        padding-left: 0px;
+        
+    }
+    
+    .myDiv p{
+        color: black;
+        font-family: 'Dancing Script', cursive;
+        font-size: 15px;
+        margin-top: -30px;
+        /* background-color: green; */
+        padding-left: 0px;
+        margin-left: 20px;
+        margin-top: -5px;
+        width: 100%;
+    }
+
+    .first p  {
+        color: white !important;
+        font-size: 40px;
+        font-family: 'Anton', sans-serif;
+        /* background-color: yellow; */
+        width: 300px;
+        margin: auto;
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+  
+    .moi{
+        width: 350px;
+        margin-right: -20px px;
+        margin-top: -100px;
+    }
+
+    .title{
+      color: white !important;
+      font-size: 35px;
+      font-family: 'Anton', sans-serif;
+      margin-top: 10px;
+      padding-top: 20px;
+  }
+
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    
+    #competences{
+        background-color: #0f162e;
+        height: 750px;
+        padding-left: 80px;
+        color: white;
+        margin-bottom: -10px;
+    }
+
+    #education {
+        background-color: #0f162e;
+        height: 700px; 
+        margin-bottom: -10px;
+    }
+
+    #banner{
+        background-color: #0f162e  ;
+        color:  white ;
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+    } 
+
+    #aboutMe{
+        background-color: #0f162e ;
+        height: 750px;
+        overflow: hidden;
+        /* margin-top: 20px; */
+    }
+
+    
+.myDiv{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    border-radius: 5%;
+    padding-top: 60px;
+    padding-left: 0px;
+    
+}
+
+.myDiv p{
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  margin-left: 35px;
+  padding-left: 100px;
+  margin-top: 5px;
+}
+
+
+
+  
+}
+  
